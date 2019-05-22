@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Homework311</string>
+    <string name="Eq">=</string>
+    <string name="Point">.</string>
+    <string name="Min">-</string>
+    <string name="Divide">/</string>
+    <string name="Backspace">Back</string>
+    <string name="C">C</string>
+    <string name="Perc">%</string>
+    <string name="Btn7">7</string>
+    <string name="Plus">+</string>
+    <string name="Btn8">8</string>
+    <string name="Btn9">9</string>
+    <string name="Btn0">0</string>
+    <string name="Mult">x</string>
+    <string name="Btn3">3</string>
+    <string name="Btn2">2</string>
+    <string name="Btn1">1</string>
+    <string name="Btn6">6</string>
+    <string name="Btn5">5</string>
+    <string name="Btn4">4</string>
+    <string name="TextViewHint">Дароу</string>
+</resources>
