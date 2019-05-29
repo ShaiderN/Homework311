@@ -20,4 +20,10 @@
     <string name="Btn5">5</string>
     <string name="Btn4">4</string>
     <string name="TextViewHint">Дароу</string>
+    <string name="B">Б</string>
+    <string name="E">Е</string>
+    <string name="L">Л</string>
+    <string name="YA">Я</string>
+    <string name="N">Н</string>
+    <string name="I">И</string>
 </resources>

@@ -9,7 +9,7 @@
     <TextView
         android:id="@id/calc"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
         android:gravity="right|bottom"
         android:hint="@string/TextViewHint"
         android:textSize="36sp"
@@ -107,7 +107,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="match_parent"
         android:layout_weight="1">
 
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -115,21 +115,22 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="0"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/buttonPerc"
             android:layout_width="102dp"
-            android:layout_height="100dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/Perc"
             android:textSize="30sp"
-            tools:ignore="ButtonStyle" />
+            tools:ignore="ButtonStyle,NestedWeights" />
 
         <Button
             android:id="@+id/buttonC"
             android:layout_width="102dp"
-            android:layout_height="100dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/C"
             android:textSize="30sp"
@@ -138,7 +139,7 @@
         <Button
             android:id="@+id/buttonBck"
             android:layout_width="102dp"
-            android:layout_height="100dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/Backspace"
             android:textSize="30sp"
@@ -147,7 +148,7 @@
         <Button
             android:id="@+id/buttonDivide"
             android:layout_width="102dp"
-            android:layout_height="100dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/Divide"
             android:textSize="30sp"
@@ -158,21 +159,22 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="0"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/button7"
             android:layout_width="102dp"
-            android:layout_height="100dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/Btn7"
             android:textSize="30sp"
-            tools:ignore="ButtonStyle" />
+            tools:ignore="ButtonStyle,NestedWeights" />
 
         <Button
             android:id="@+id/button8"
             android:layout_width="102dp"
-            android:layout_height="100dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/Btn8"
             android:textSize="30sp"
@@ -181,7 +183,7 @@
         <Button
             android:id="@+id/button9"
             android:layout_width="102dp"
-            android:layout_height="100dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/Btn9"
             android:textSize="30sp"
@@ -190,7 +192,7 @@
         <Button
             android:id="@+id/buttonMult"
             android:layout_width="102dp"
-            android:layout_height="100dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/Mult"
             android:textSize="30sp"
@@ -201,21 +203,22 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="0"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/button4"
             android:layout_width="102dp"
-            android:layout_height="100dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/Btn4"
             android:textSize="30sp"
-            tools:ignore="ButtonStyle" />
+            tools:ignore="ButtonStyle,NestedWeights" />
 
         <Button
             android:id="@+id/button5"
             android:layout_width="102dp"
-            android:layout_height="100dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/Btn5"
             android:textSize="30sp"
@@ -224,7 +227,7 @@
         <Button
             android:id="@+id/button6"
             android:layout_width="102dp"
-            android:layout_height="100dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/Btn6"
             android:textSize="30sp"
@@ -233,7 +236,7 @@
         <Button
             android:id="@+id/buttonMin"
             android:layout_width="102dp"
-            android:layout_height="100dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/Min"
             android:textSize="30sp"
@@ -244,21 +247,22 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="0"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/button1"
             android:layout_width="102dp"
-            android:layout_height="100dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/Btn1"
             android:textSize="30sp"
-            tools:ignore="ButtonStyle" />
+            tools:ignore="ButtonStyle,NestedWeights" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="102dp"
-            android:layout_height="100dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/Btn2"
             android:textSize="30sp"
@@ -267,7 +271,7 @@
         <Button
             android:id="@+id/button3"
             android:layout_width="102dp"
-            android:layout_height="100dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/Btn3"
             android:textSize="30sp"
@@ -276,7 +280,7 @@
         <Button
             android:id="@+id/buttonPlus"
             android:layout_width="102dp"
-            android:layout_height="100dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/Plus"
             android:textSize="30sp"
@@ -287,21 +291,22 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="0"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/buttonPoint"
             android:layout_width="102dp"
-            android:layout_height="100dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/Point"
             android:textSize="30sp"
-            tools:ignore="ButtonStyle" />
+            tools:ignore="ButtonStyle,NestedWeights" />
 
         <Button
             android:id="@+id/button0"
             android:layout_width="102dp"
-            android:layout_height="100dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/Btn0"
             android:textSize="30sp"
@@ -310,7 +315,7 @@
         <Button
             android:id="@+id/buttonEq"
             android:layout_width="204dp"
-            android:layout_height="100dp"
+            android:layout_height="wrap_content"
             android:layout_weight="2"
             android:text="@string/Eq"
             android:textSize="30sp"
