@@ -3,8 +3,10 @@ package com.example.homework311;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.text.Layout;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -30,6 +32,9 @@ public class MainActivity extends AppCompatActivity {
     Button buttonC;
     Button buttonPerc;
     Button buttonBack;
+    Button engineer;
+    LinearLayout rareCalc;
+    LinearLayout enginCalc;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,6 +60,9 @@ public class MainActivity extends AppCompatActivity {
         buttonC = (Button)findViewById(R.id.buttonC);
         buttonPerc = (Button)findViewById(R.id.buttonPerc);
         buttonBack = (Button)findViewById(R.id.buttonBck);
+        engineer = (Button)findViewById(R.id.enginBtn);
+        rareCalc = (LinearLayout)findViewById(R.id.llRareCalc);
+        enginCalc = (LinearLayout)findViewById(R.id.llEnginCalc);
 
         button0.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -204,6 +212,19 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 calc.setText("Пока настроен только вывод цифр через какую-то срань, буду переделывать");
                 result = calc.getText().toString();
+            }
+        });
+
+        engineer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (rareCalc.getVisibility() == View.VISIBLE) {
+                    enginCalc.setVisibility(View.VISIBLE);
+                    rareCalc.setVisibility(View.GONE);
+                } else {
+                    enginCalc.setVisibility(View.GONE);
+                    rareCalc.setVisibility(View.VISIBLE);
+                }
             }
         });
     }
